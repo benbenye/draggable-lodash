@@ -1,10 +1,13 @@
 import React from 'react';
+import _ from 'lodash';
 import logo from './logo.svg';
 import './App.css';
+import LodashTag from './components/lodash-tag';
 
 function App() {
   return (
     <div className="App">
+      <LodashTag />
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>

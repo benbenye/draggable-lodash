@@ -1,0 +1,13 @@
+.list, .box {
+  display: flex;
+  flex-wrap: wrap;
+  text-align: center;
+}
+.list .tag, .box .tag {
+  background-color: darksalmon;
+  padding: 5px;
+  margin: 5px;
+}
+.box {
+  height: 100px;
+}
